@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    font-family: "poppins", sans-serif;
+  }
+  
+  body {
+    background-color: antiquewhite;
+    margin: 0;
+  }
+  
+  .Image-search,.Advanced,.Search {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-right: 2rem;
+  }
+  .Search a:hover {
+    text-decoration: underline;
+  }
+  .Search a {
+    margin-right: 20px;
+    color: #1a0dab;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container,.earch-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;;
+  }
+  
+  .input-style {
+    width: 600px;
+    height: 40px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  #myForm {
+    display: flex;
+    align-items: center;
+    margin-left: 0.4rem;
+    font-weight: 300;
+    width: 80%;
+    max-width: 10rem;
+    margin: 0 auto;
+  }
+  #submit-search
+  {
+    padding: 10px 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1a0dab;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 210px;
+    cursor: pointer;
+  }
+
+  #submit-search,#submit-advanced
+  {
+    padding: 10px 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1a0dab;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 210px;
+    cursor: pointer;
+  }
+
+
+
+  #text-search,#search-image
+    {
+        width: 600px;
+        height: 40px;
+        padding: 6px;
+        border: 1px solid #ccc;
+        margin-right: 10px;
+        border-radius: 20px;
+      }

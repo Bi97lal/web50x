@@ -1,14 +1,65 @@
-#top-color{ background-color: rgb(68, 38, 17);
-       
-   
-   
-   }
-   div{
-    background-color: cadetblue;
-     
-   }
-   .table ,th ,tbody ,td{
-    border: 1px  solid   #000;
-    
-   }
-   .top-div{ margin: 0%;}
+* {
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+   border: none;
+   font-family: "poppins", sans-serif;
+ }
+ 
+ body {
+   background-color: antiquewhite;
+   margin: 0;
+ }
+ 
+ .Search {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 10px;
+   padding-right: 2rem;
+ }
+ 
+ .Search a {
+   margin-right: 20px;
+   color: #1a0dab;
+ }
+ 
+ .Search a:hover {
+   text-decoration: underline;
+ }
+ 
+ #myForm {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ }
+ 
+ #text-search {
+   width: 600px;
+   height: 40px;
+   padding: 6px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-right: 10px;
+ }
+ 
+ input[type="submit"] {
+   padding: 10px 20px;
+   font-size: 16px;
+   font-weight: bold;
+   color: #fff;
+   background-color: #1a0dab;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ input[type="submit"]:hover {
+   background-color: #0d0859;
+ }
+ 
+ input[type="submit"]:focus {
+   outline: none;
+ }
+ 
