@@ -4,26 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced Search</title>
-    <link rel="stylesheet"  href="style.css" /> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="Advanced">
-        <a href="./index.html">Back to search</a>
+    <header class="Search">
+        <a href="./index.html">Google</a>
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        
+          
+    </header>
+    <div class="Advanced-header">
+        <h1>Advanced search</h1>
     </div>
-    <form class="container" action="https://google.com/search">
-        <label for="input1">all these words:</label>
-        <input type="text" id="input1" class="input-style">
-        
-        <label for="input2">this exact word or phrase:</label>
-        <input type="text" id="input2" class="input-style">
+    
+    <hr class="header-line"></hr>
+    <p class="Find">Find pages with...</p>
 
-        <label for="input3">any of these words:</label>
-        <input type="text" id="input3" class="input-style">
-        
-        <label for="input4">none of these words:</label>
-        <input type="text" id="input4" class="input-style">
+    <form action="https://www.google.com/search" method="GET" class="search-form">
 
-        <input id="submit-advanced" type="submit" value="advanced search">
-    </form>
+        <div class="Main-Input">
+            <div class="left">
+
+                <label class ="lable-ad">all these words:</label>
+            </div>
+            <div class="right">
+                <input class="filed-1" type="text" name="as_q">
+                
+
+
+            </div>
+
+        </div>
+        <div class="Main-Input">
+            <div class="left">
+
+                <label class ="lable-ad">this exact word or phrase:</label>
+            </div>
+            <div class="right">
+                <input class="filed-1" type="text" name="as_epq">
+
+
+            </div>
+
+        </div>
+        <div class="Main-Input">
+            <div class="left">
+
+                <label class ="lable-ad">any of these words:</label>
+            </div>
+            <div class="right">
+                <input class="filed-1" type="text"name="as_oq">
+
+
+            </div>
+
+        </div>
+        <div class="Main-Input">
+            <div class="left">
+
+                <label class ="lable-ad">none of these words:</label>
+            </div>
+            <div class="right">
+                <input class="filed-1" type="text" name="as_eq">
+
+
+            </div>
+
+        </div>
+        <div class="butom-adv">
+            
+        </div>
+        <div class="Main-Input">
+            <div class="left">
+            </div>
+                <input type="submit" value="advanced search" class="input-advance">
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+          
+
+      </form>
 </body>
+<div>
+
+</div>
 </html>

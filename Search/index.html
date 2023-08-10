@@ -7,15 +7,24 @@
     <link rel="stylesheet"  href="style.css" /> 
 </head>
 <body>
-    <div class="Search">
-        <a href="./Image_Search.html" class="Image-search">image</a>
-        <a href="./Advanced_Search.html" class="Advanced">Advanced</a>
-    </div>
+    <header class="Search">
+        <a href="./Image_Search.html" >image</a>
+        <a href="./Advanced_Search.html" >Advanced</a>
+    </header>
     
-    <form id="myForm" action="https://google.com/search">
+    <form  action="https://google.com/search">
         <div class="conterner-q">
-        <input id="text-search" type="text" name="q">
-        <input id="submit-search" type="submit" value="Google Search">
+            <div class="image-google">
+             <img src="image/googlelogo_color_272x92dp.png" alt="google  image">
+            </div>
+            
+                <input id="text-search" type="text" name="q">
+            
+         <div class="submits">
+             
+             <input id="submit-search" type="submit" value="Google Search">
+              <input id="Lucky" type="submit" value="I'm feeling Lucky">
+         </div>
     </div>
     </form>
 </body>
